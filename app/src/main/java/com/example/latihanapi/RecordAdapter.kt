@@ -13,11 +13,11 @@ import androidx.recyclerview.widget.RecyclerView
 class RecordAdapter(val arrayList: ArrayList<RecordModel>, val context: Context)
     : RecyclerView.Adapter<RecordAdapter.ViewHolder>() {
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val layoutAdapter  = itemView.findViewById<LinearLayout>(R.id.recordlayout_container)//recordlayout_container
-        val posAdapter     = itemView.findViewById<TextView>(R.id.recordlayout_pos)//recordlayout_pos
-        val idAdapter      = itemView.findViewById<TextView>(R.id.recordlayout_id)//recordlayout_id
-        val nameAdapter    = itemView.findViewById<TextView>(R.id.recordlayout_name)//recordlayout_name
-        val companyAdapter = itemView.findViewById<TextView>(R.id.recordlayout_company)//recordlayout_company
+        val layoutAdapter  = itemView.findViewById<LinearLayout>(R.id.recordlayout_container)
+        val posAdapter     = itemView.findViewById<TextView>(R.id.recordlayout_pos)
+        val idAdapter      = itemView.findViewById<TextView>(R.id.recordlayout_id)
+        val nameAdapter    = itemView.findViewById<TextView>(R.id.recordlayout_name)
+        val companyAdapter = itemView.findViewById<TextView>(R.id.recordlayout_company)
         val editAdapter    = itemView.findViewById<ImageView>(R.id.recordlayout_edit)
         val removeAdapter  = itemView.findViewById<ImageView>(R.id.recordlayout_remove)
     }
