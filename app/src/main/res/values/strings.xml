@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LatihanAPI</string>
+    <string name="no_records_available">No Records Available</string>
+    <string name="add_record">Add Record</string>
+    <string name="company_name">Company Name</string>
+    <string name="name">Name</string>
+    <string name="all_records">All Records</string>
+    <string name="id">ID</string>
+    <string name="number">No</string>
+    <string name="refresh">Refresh</string>
+    <string name="edit_record">Edit Record</string>
+    <string name="colon">:</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+</resources>

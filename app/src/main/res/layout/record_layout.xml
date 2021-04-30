@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="12dp"
+    android:id="@+id/recordlayout_container"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="7.5">
+
+    <TextView
+        android:id="@+id/recordlayout_pos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/number"
+        android:layout_marginHorizontal="2dp"
+        android:layout_gravity="center"
+        style="?attr/textAppearanceBody2" />
+
+    <TextView
+        android:id="@+id/recordlayout_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="@string/id"
+        android:layout_marginHorizontal="2dp"
+        style="?attr/textAppearanceBody2" />
+
+    <TextView
+        android:id="@+id/recordlayout_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/name"
+        android:layout_marginHorizontal="2dp"
+        style="?attr/textAppearanceBody2" />
+
+    <TextView
+        android:id="@+id/recordlayout_company"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:text="@string/company_name"
+        android:layout_marginHorizontal="2dp"
+        style="?attr/textAppearanceBody2" />
+
+    <ImageView
+        android:id="@+id/recordlayout_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_edit"
+        android:contentDescription="Edit Record"
+        android:layout_marginHorizontal="2dp"
+        android:foregroundGravity="center"
+        style="?attr/selectableItemBackgroundBorderless"/>
+
+    <ImageView
+        android:id="@+id/recordlayout_remove"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_remove"
+        android:contentDescription="Remove Record"
+        android:layout_marginHorizontal="2dp"
+        android:foregroundGravity="center"
+        style="?attr/selectableItemBackgroundBorderless"/>
+
+</LinearLayout>
